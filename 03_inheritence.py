@@ -4,7 +4,7 @@ class Engineer:
         self.lname = lname
 
     def full_name(self):
-        return f"{self.fname} {self.lname}"
+        return f"first name: {self.fname}, last name: {self.lname}"
     
 class SoftwareEngineer(Engineer):
     def __init__(self, name, level, salary):
