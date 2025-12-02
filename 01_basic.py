@@ -1,14 +1,14 @@
 class Cal_circle:
 
-    pi = 3.14   # class property
+    pi = 3.14   # class variable
 
-    def __init__(self, radius):
-        self.radius = radius  # instance property
+    def __init__(self, radius): # Constructor
+        self.radius = radius  # instance variable
 
-    def circum(self):
+    def circum(self):   # Instance method
         return 2*self.pi*self.radius
     
-    def area(self):
+    def area(self):  # Instance method
         return self.pi*self.radius**2
 
 
